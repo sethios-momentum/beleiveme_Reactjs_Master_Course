@@ -4,7 +4,8 @@ let variablelet = "global"
 
 if (true) {
     var variablevar = "local"
-let variablelet = "local"
+// let variablelet = "local"
+ variablelet = "local"
 
 console.log("var : "+ variablevar)
 console.log('let : '+variablelet) 
