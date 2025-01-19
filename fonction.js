@@ -12,8 +12,6 @@ let sayHello = function (){
     console.log(" Hello brother !")
 }
 
-sayHello()
-
 // les fonction fleche
 
 let direBonjour = ()=>{
