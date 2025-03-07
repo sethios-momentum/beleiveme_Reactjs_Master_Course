@@ -1,19 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import "./index.css"
+import App from './App';
 
 
 
-const Welcome = ()=>{
-  const namer = "Tresor";
-  return (
-
-  
-    <h2> bienvenue dans Mon app {namer === "sethios"?"Ingenir": "bro"}</h2>
-  );
-}
 
 createRoot(document.querySelector("#root")!).render(
 
-<Welcome />
+  <>
+  <App />
+  </>
 );
