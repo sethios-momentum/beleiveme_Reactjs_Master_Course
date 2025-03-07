@@ -6,6 +6,7 @@ LikeButton, and Video. Then combine them into entire screens, pages, and apps.
 Write components with code and markup
 React components are JavaScript functions. Want to show some content conditionally? Use an if statement. Displaying a list? Try array map(). Learning React is learning programming.
 
+"""
 function VideoList({ videos, emptyHeading }) {
   const count = videos.length;
   let heading = emptyHeading;
@@ -22,3 +23,4 @@ function VideoList({ videos, emptyHeading }) {
     </section>
   );
 }
+"""
